@@ -1,0 +1,21 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "ramsey/uuid": "^4.7",
+        "psr/container": "^2.0",
+        "doctrine/dbal": "^3.6",
+        "doctrine/orm": "^2.14",
+        "symfony/cache": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "controllers/",
+            "configs\\": "configs/",
+            "runtime\\": "runtime/",
+            "models\\": "models/",
+            "views\\": "views/",
+            "attributesRoute\\": "attributesRoute/",
+            "Enums\\": "Enums/"
+        }
+    }
+}
